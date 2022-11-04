@@ -1,0 +1,92 @@
+<!Doctype html>
+<!--
+    Auteur:         Dion & Michal
+    Aanmaakdatum:    07-10-2022
+
+    Lidmaatschap pagina voor de lidmaatschappen en contributie van de club.
+-->
+
+<html lang="nl">
+    <head>
+        <title>
+            B.V.V Den Bosch
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../images/bvvLogo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../styles/footerStyles.css">
+        <link rel="stylesheet" href="../styles/headerStyles.css">
+        <link rel="stylesheet" href="../styles/styles.css">
+        <link rel="stylesheet" href="../styles/lidmaatschap.css">
+        <script src="../scripts/index.js" defer></script>
+    </head>
+    <body>
+        <body class="backgroundImage">
+            <!-- De header, waar je alle navigatie gaat krijgen! -->
+            <header class="header-fixed">
+                <div class="header-limiter">
+                    <h1><a href="../index.html"><span>B.V.V</span> Den Bosch</a></h1>
+                    <nav>
+                        
+                        <a href="../index.html">Home</a>
+                        <a href="./lidmaatSchap.html" class="selected">Lidmaatschap</a>
+                        <a href="./sponsor.html">Sponsoring</a>
+                        <a href="./trainingsSchema.html">Trainingsschema</a>
+                        <a href="./uitslagen.html">Uitslagen</a>
+                        <a href="./contact.html">Contact</a>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- Iframe voor een inschrijf formulier-->
+    <iframe
+        class= "signInForm"
+        width="640px" 
+        height="480px" 
+        src="https://forms.office.com/Pages/ResponsePage.aspx?id=Pe4ZTFA0F0GIwDdAEh0vgwGo8GB8hytKgLbUZu2-eahUNlhISUNGT1dGSzlVUFdBVkNNUFEzU1NNTi4u&embed=true" 
+        frameborder="0" 
+        marginwidth="0" 
+        marginheight="0" 
+        style="border: none; max-width:100%; max-height:100vh" 
+        allowfullscreen 
+        webkitallowfullscreen 
+        mozallowfullscreen 
+        msallowfullscreen> 
+    </iframe>
+    <!-- Afbeelding van de contributie kosten-->
+    <img src="../images/contributieTabel.png">
+    <!-- Iframe voor een uitschrijf formulier-->
+    <iframe 
+        class="signOutForm"
+        width="640px" 
+        height="480px" 
+        src="https://forms.office.com/r/34x2cUYjuh?embed=true" 
+        frameborder="0" 
+        marginwidth="0" 
+        marginheight="0" 
+        style="border: none; max-width:100%; max-height:100vh" 
+        allowfullscreen 
+        webkitallowfullscreen 
+        mozallowfullscreen 
+        msallowfullscreen> 
+    </iframe>
+
+    <div id="contributionCal">
+        <h1>
+            Lidmaatschap Berekening
+        </h1>
+        <p id="age">
+            Geen data ontvangen!
+        </p>
+        <p id="contributionCalculator">
+            Geen data ontvangen!
+        </p>
+    </div>
+
+        <footer>
+            <div class="footerContent">
+                <p>&copy; 2022 Michal & Dion</p>
+            </div>
+        </footer>
+    </body>
+</html>

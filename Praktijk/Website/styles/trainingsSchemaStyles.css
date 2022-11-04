@@ -1,0 +1,57 @@
+/*
+    Auteur:         Haaksman,Dion
+    Aanmaakdatum:    07-10-2022
+
+    <Stylesheet pagina trainingsschema>
+*/
+
+body
+{
+    background-image: url("../images/backgroundImage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 145px;
+}
+
+/* positionering van tabel*/
+.schedule
+{
+    margin:auto;
+    margin-left:15px;
+    margin-top:15px;
+}
+
+/* foto's passend maken*/
+img, figcaption
+{
+    display: block;
+    clear: right;
+    float: right;
+    width: 320px;
+    height: 200px;
+    padding: 15px;
+    margin-right: 240px;
+}
+
+figcaption
+{
+    padding: 0px;
+    margin-bottom: -155px;
+}
+
+/*tabel opmaak*/
+th
+{
+    background-color: #608bd2;
+    width: 120px;
+    text-align: center;
+}
+
+/*tabel opmaak*/
+td
+{
+    border-bottom: 2px solid #608bd2;
+    width: 120px;
+    text-align: center;
+}
+

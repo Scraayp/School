@@ -1,0 +1,100 @@
+<!Doctype html>
+<!--
+    Auteur:         Dion & Michal
+    Aanmaakdatum:    07-10-2022
+
+    Een website voor voetbalclub B.V.V
+-->
+
+<html lang="nl">
+    <head>
+        <title>
+            B.V.V Den Bosch
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../images/bvvLogo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../styles/styles.css">
+        <link rel="stylesheet" href="../styles/footerStyles.css">
+        <link rel="stylesheet" href="../styles/headerStyles.css">
+        <link rel="stylesheet" href="../styles/contactStyles.css">
+    </head>
+    <body>
+        <!-- De header, waar je alle navigatie gaat krijgen! -->
+        <header class="header-fixed">
+            <div class="header-limiter">
+                <h1><a href="../index.html"><span>B.V.V</span> Den Bosch</a></h1>
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <a href="./lidmaatschap.html">Lidmaatschap</a>
+                    <a href="./sponsor.html">Sponsoring</a>
+                    <a href="./trainingsSchema.html">Trainingsschema</a>
+                    <a href="./uitslagen.html">Uitslagen</a>
+                    <a href="./contact.html" class="selected">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Contact gegevens die links van de pagina staan -->
+        <div id="infoLeft">
+            <h1>
+                Contact Gegevens
+            </h1>
+            <p>
+                <b>E-mail:</b> <br>
+                <span>
+                <a href="mailto:info@bvvdenbosch.nl">info@bvvdenbosch.nl</a>
+                </span>
+                <br>
+                <b>Telefoon:</b> <br>
+                <span>
+                <a href="tel:+073-613-00-00">073-613-00-00</a>
+                </span>
+                <br>
+                <br>
+                <b>Adres:</b> <br>
+                B.V.V Den Bosch <br>
+                Sportpark De Vliert <br>
+                <span>
+                <a href="https://www.google.nl/maps/place/Victorialaan+20,+5213+JG+'s-Hertogenbosch/@51.7027447,5.3305316,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6efb3d6004731:0x9c83285560aa022d!8m2!3d51.7030295!4d5.333532" target="_blank">
+                Victorialaan 20</a>
+                </span>
+                <br>
+                5213 JG 's-Hertogenbosch <br>
+            </p>
+
+            <!-- De google maps iframe om te zien waar bevistigd is -->
+                <iframe 
+                width="300" 
+                height="300" 
+                id="gmap_canvas" 
+                src="https://maps.google.com/maps?q=Victorialaan%2020%205222%20AA%20's-Hertogenbosch&t=&z=17&ie-UTF8&iwloc=&output=embed"
+                frameborder="0" 
+                scrolling="no" 
+                marginheight="0" 
+                marginwidth="0">
+                </iframe>
+        </div>
+
+        <!-- Een ifram om ervoor te zorgen dat je contact kan opnemen -->
+        <iframe 
+            width="400px" 
+            height="700px" 
+            src="https://forms.office.com/Pages/ResponsePage.aspx?id=Pe4ZTFA0F0GIwDdAEh0vg70gJw5lvuJFpX5UABwH5lpUNDZMNlpTOFQzTzJWNVdCT1hWSjRDQU1aMi4u&embed=true" 
+            frameborder="0" 
+            marginwidth="0" marginheight="0" 
+            allowfullscreen 
+            webkitallowfullscreen
+            mozallowfullscreen 
+            msallowfullscreen> 
+        </iframe>
+
+        <!-- De footer. Het zwarte balkje onderaan de pagina. -->
+        <footer>
+            <div class="footerContent">
+                <p>&copy; 2022 Michal & Dion</p>
+            </div>
+        </footer>
+        <!-- EINDE FOOTER -->
+    </body>
+</html>

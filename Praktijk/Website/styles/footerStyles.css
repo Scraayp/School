@@ -1,0 +1,29 @@
+/* 
+Auteur: Michal, Kolasa
+Aanmaakdatum: 9/30/2022
+
+De css code voor de footer.
+*/
+
+/* Maak de footer en zorg ervoor dat hij hele tijd beneden is */
+footer
+{
+    position: fixed;
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #292c2f;
+    color: white;
+    text-align: center;
+}
+
+/* Zorg ervoor dat de footer tekst mooi in het midden is */
+.footerContent 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}

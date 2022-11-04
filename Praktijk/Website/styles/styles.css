@@ -1,0 +1,21 @@
+/* 
+Auteur: Michal, Kolasa
+Aanmaakdatum: 9/30/2022
+
+De css code voor de algemene elementen in de website.
+*/
+
+/* Geef de body een kleur en type kleur. Maakt het logo een background image.*/
+body
+{
+    background-color: #353b40;
+    color: white;
+    padding: 0;
+    height: 100px;
+    font-family: LouisGeorgeCafeLight;
+}
+
+@font-face {
+    font-family: LouisGeorgeCafeLight;
+    src: url(../fonts/LouisGeorgeCafeLight.ttf);
+}

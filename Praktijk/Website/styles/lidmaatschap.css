@@ -1,0 +1,38 @@
+/*
+Auteur: Haaksman, Dion
+Aanmaakdatum: 9/30/2022
+
+css pagina lidmaatschap
+*/
+
+/* Iframe links laten floaten en grootte aanpassen*/
+.signInForm
+{
+    float: left;
+    width: 440px;
+    margin-top: 15px;
+}
+
+/* Iframe rechts laten floaten en grootte aanpassen*/
+.signOutForm
+{
+    float: right; 
+    width: 440px;
+    margin-top: 15px;
+}
+
+/* groottevan foto aanpassen*/
+img
+{
+    width: 480px;
+    margin-top: 15px;
+    margin-left: 3px;
+    margin-right: 0px;
+}
+
+/* Er voor zorgen dat de contributie calculator naar center wordt geplaatst */
+#contributionCal
+{
+    text-align: center;
+}
+

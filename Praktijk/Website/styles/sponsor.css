@@ -1,0 +1,48 @@
+/*
+Auteur:         Dion Haaksman
+Aanmaakdatum:   20-10-2022
+
+<css pagina sponsor>
+*/
+
+/* Iframe rechts laten floaten*/
+iframe
+{
+    border: none;
+    float: right;
+    margin-top: 15px;
+}    
+
+/* opmaak tabellen*/
+#general
+{
+    display: block;
+    float: left;
+    text-align: center;
+    border: 2px solid #608bd2;
+    max-width: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#costs
+{
+    display: block;
+    float: left;
+    text-align: center;
+    border: 2px solid #608bd2;
+    max-width: 320px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#rent
+{
+    display: block;
+    float: left;
+    text-align: center;
+    border: 2px solid #608bd2;
+    max-width: 320px;
+    margin-left: 15px;
+    margin-top: 15px;
+}

@@ -1,0 +1,59 @@
+/* 
+Auteur: Michal, Kolasa
+Aanmaakdatum: 9/30/2022
+
+De css code voor de Contact pagina.
+*/
+
+body
+{
+    background-image: url("../images/backgroundImage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 145px;
+}
+
+/* Zorg ervoor dat de iframe geen border heeft en ook goed rechts staat */
+iframe 
+{
+    border: none; 
+    float: right;
+    margin-top: 15px;
+}
+
+/* Zorg ervoor dat de informatie rechts staat */
+#infoLeft
+{
+    margin-top: 15px;
+    float: left;
+}
+
+/* Zorg ervoor dat de logo in de midden van de pagina is */
+#logo
+{
+    float: center;
+    margin-top: 60px;
+    margin-left: 15%;
+}
+
+/* Zorg ervoor dat de figure niet de hele pagina is */
+#logoMiden
+{
+    display: inline-block;
+}
+
+/* Zorg ervoor dat tekst onder foto en foto zelf in de midden is */
+figcaption
+{
+    margin-left: 20px;
+}
+
+span a:hover
+{
+    background-color: #608bd2;
+}
+
+span a
+{
+    color: #ffff;
+}
